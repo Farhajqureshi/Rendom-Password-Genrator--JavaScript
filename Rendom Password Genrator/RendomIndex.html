@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rendom Password Genrator</title>
+
+    <!-- add Link for google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <!-- add Link for Css File  -->
+    <link rel="stylesheet" href="RenStyle.css">
+
+
+    <!-- add Link temp fontawesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Genrate a<br><span>Rendom Password</span></h1>
+
+        <div class="display">
+            <input type="text" name="password" id="password">
+            <!-- <img src="Img/Untitled.jpeg" alt=""> -->
+            <i  onclick="copyPassword()" id="copyicon" class="fa-solid fa-copy"></i>
+        </div>
+        <button id="button"><img src="Img/generate.png" alt="">Genrate Password</button>
+    </div>
+
+
+    <script src="RenApp.js"></script>
+</body>
+
+</html>
